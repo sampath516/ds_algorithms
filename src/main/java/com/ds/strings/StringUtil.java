@@ -1,8 +1,11 @@
 package com.ds.strings;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class StringUtil
 {
@@ -121,6 +124,15 @@ public class StringUtil
 		
 		System.out.println(areAnagrams_v1("ABC","CAB")); 
 		System.out.println(areAnagrams_v1("ABCDEF","ABCDEE")); 
+		
+		String str = "smiles";
+		System.out.println(str.substring(0, 6));
+		System.out.println(str.substring(0, 0));
+		
+		Set<String> strings = new HashSet<String>();
+		
+		List<String> li = new ArrayList<String>();
+		li.size();
 
 
 	}

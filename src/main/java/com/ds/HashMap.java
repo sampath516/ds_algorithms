@@ -38,8 +38,7 @@ public class HashMap<K, V> implements Map<K, V> {
 			}
 			//Add the new entry at the beginning of the given bucket linked list
 			if (entry == null) {
-				entry = new Entry<K, V>(key, value, table[index],
-						key.hashCode());
+				entry = new Entry<K, V>(key, value, table[index], key.hashCode());
 				table[index] = entry;
 				size++;
 			}
